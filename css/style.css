@@ -1298,33 +1298,26 @@ input[type="text"] {
     font-size: 36px;
     font-weight: bold;
     color: #333;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
-.skill-card .card {
-    background: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: none;
-    margin-bottom: 30px;
-    border-radius: 10px;
-}
-.skill-card .card-body {
-    padding: 20px;
-    text-align: center;
-}
-.skill-card .card-title {
-    font-size: 24px;
-    font-weight: bold;
-    color: #007bff;
-    margin-bottom: 15px;
-}
-.skill-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.skill-list li {
+.skills-intro {
     font-size: 16px;
     color: #555;
-    margin: 5px 0;
+    margin-bottom: 40px;
+}
+.accordion-button {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    background-color: #ffffff;
+}
+.accordion-button:hover {
+    color: #0056b3;
+}
+.accordion-body {
+    font-size: 16px;
+    color: #555;
+    padding: 15px;
+    background-color: #f8f9fa;
 }
 /*# sourceMappingURL=style.css.map */
