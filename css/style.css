@@ -1290,50 +1290,53 @@ input[type="text"] {
   opacity: 0;
 }
 /*new changes - 28th Dec 2024*/
+<!-- Updated CSS -->
+
 #skills-section {
-    background-color: #f9f9f9;
-    padding: 50px 0;
+background-color: #eaf7ff; /* Light blue background */
+padding: 50px 0;
 }
 .skills-heading {
-    font-size: 36px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
+font-size: 36px;
+font-weight: bold;
+color: #333;
+margin-bottom: 20px;
 }
 .skills-intro {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 40px;
+font-size: 16px;
+color: #555;
+margin-bottom: 40px;
 }
 .skill-card .card {
-    background: linear-gradient(135deg, #ffffff, #f3f3f3);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    margin-bottom: 20px;
-    padding: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+background: linear-gradient(135deg, #ffffff, #f3f3f3);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+border: 1px solid #ddd;
+border-radius: 12px;
+margin-bottom: 20px;
+padding: 20px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .skill-card .card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+transform: translateY(-8px);
+box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 .skill-card .card-title {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    color: #007bff;
-    text-align: center;
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 15px;
+color: #007bff;
+text-align: center;
 }
 .skill-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+list-style: none;
+padding: 0;
+margin: 0;
 }
 .skill-list li {
-    font-size: 14px;
-    color: #555;
-    margin-bottom: 5px;
+font-size: 14px;
+color: #555;
+margin-bottom: 5px;
 }
+
 
 /*# sourceMappingURL=style.css.map */
