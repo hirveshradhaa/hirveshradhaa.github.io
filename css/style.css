@@ -1290,64 +1290,6 @@ input[type="text"] {
   opacity: 0;
 }
 /*new changes - 28th Dec 2024*/
-/* Skills Section */
-#custom-skills-section {
-    background-color: #f9f9f9;
-    padding: 50px 20px;
-}
-
-#custom-skills-section h2 {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-/* Skills Grid */
-.custom-skills-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-/* Skill Cards */
-.custom-skill-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 200px;
-    text-align: center;
-}
-
-.custom-skill-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Skill Icons */
-.custom-skill-icon {
-    font-size: 3rem;
-    color: #007acc;
-    margin-bottom: 10px;
-    transition: color 0.3s ease;
-}
-
-.custom-skill-card:hover .custom-skill-icon {
-    color: #0056a6;
-}
-
-/* Skill Titles */
-.custom-skill-card h4 {
-    font-size: 1.2rem;
-    color: #333;
-    font-weight: 600;
-    margin: 0;
-}
 
 
 /*# sourceMappingURL=style.css.map */
