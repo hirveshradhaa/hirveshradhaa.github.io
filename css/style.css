@@ -1290,6 +1290,42 @@ input[type="text"] {
   opacity: 0;
 }
 /*new changes - 28th Dec 2024*/
-
+#skills-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+.skills-heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+.skill-card .card {
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.skill-card .card-body {
+    padding: 20px;
+    text-align: center;
+}
+.skill-card .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+.skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.skill-list li {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
 
 /*# sourceMappingURL=style.css.map */
