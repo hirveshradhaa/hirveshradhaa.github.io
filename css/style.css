@@ -1339,94 +1339,19 @@ margin-bottom: 5px;
 }
 
 /*  Changes on 30th Dec*/
-.resume-container {
-    background-color: #f9f9f9;
-    padding: 50px 0;
-}
-.resume-heading {
-    font-size: 36px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
-}
-.resume-intro {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 40px;
-}
-.timeline {
-    position: relative;
-    padding: 20px 0;
-    margin: 20px 0;
-}
-.timeline::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 2px;
-    height: 100%;
-    background: #007bff;
-}
-.timeline-section {
-    margin-bottom: 50px;
-}
-.timeline-title {
-    font-size: 24px;
-    font-weight: bold;
-    color: #007bff;
-    margin-bottom: 20px;
-    text-align: center;
-}
-.timeline-entry {
-    position: relative;
-    margin-bottom: 30px;
-}
-.timeline-icon {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
-    background: #fff;
-    border: 2px solid #007bff;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #007bff;
-    font-size: 18px;
-}
-.timeline-content {
-    background: #fff;
-    border-radius: 8px;
-    padding: 20px;
-    position: relative;
-    width: 45%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.timeline-content:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-.timeline-entry:nth-child(odd) .timeline-content {
-    float: left;
-    text-align: right;
-}
-.timeline-entry:nth-child(even) .timeline-content {
-    float: right;
-    text-align: left;
-}
-.timeline-entry .company {
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 5px;
-}
-.timeline-entry .year {
-    color: #555;
-    font-style: italic;
-}
+.download-resume-btn {
+			display: inline-block;
+			background-color: #007BFF;
+			color: white;
+			padding: 10px 20px;
+			border-radius: 5px;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-size: 16px;
+			margin-top: 20px;
+			cursor: pointer;
+		}
+		.download-resume-btn:hover {
+			background-color: #0056b3;
+		}
 /*# sourceMappingURL=style.css.map */
