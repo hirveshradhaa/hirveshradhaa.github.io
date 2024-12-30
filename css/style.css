@@ -1588,5 +1588,272 @@ body {
     color: #C1BFD0;
 }
 
+/* Updated CSS */
+
+/* General Body Styling */
+body {
+    font-family: "Space Mono", Arial, serif;
+    background-color: #211F2F; /* Dark subtle background */
+    color: #918CA9; /* Complementary light text */
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* Header Styling */
+#fh5co-header {
+    background: linear-gradient(135deg, #211F2F, #918CA9);
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#fh5co-header .overlay {
+    background: rgba(0, 0, 0, 0.6); /* Add subtle dark overlay */
+}
+
+#fh5co-header h3 {
+    font-size: 36px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#fh5co-header .fh5co-social-icons li a {
+    color: #918CA9;
+}
+
+#fh5co-header .fh5co-social-icons li a:hover {
+    color: #FFFFFF;
+}
+
+.download-resume-btn {
+    background-color: #918CA9; /* Match button to the theme */
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.download-resume-btn:hover {
+    background-color: #6E6782;
+}
+
+.download-resume-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* About Section Styling */
+#fh5co-about {
+    background-color: #2F2A3C;
+    color: #FFF;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#fh5co-about h1 {
+    color: #918CA9;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.info {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.info li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.info li .first-block {
+    color: #918CA9;
+}
+
+.info li .second-block {
+    color: #FFFFFF;
+}
+
+/* Timeline Styling */
+.timeline {
+    background-color: #1E1A29;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: left; /* Align content to the left */
+}
+
+.timeline > li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline > li > .timeline-panel {
+    background-color: #2F2A3C;
+    color: #FFF;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 0;
+    max-width: 80%; /* Better alignment */
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+    left: auto;
+    right: 0;
+}
+
+.timeline > li > .timeline-badge {
+    background-color: #918CA9;
+    border: 3px solid #2F2A3C;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #211F2F;
+}
+
+.timeline-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.company {
+    color: #C1BFD0;
+    margin-bottom: 10px;
+}
+
+.timeline-body {
+    color: #C1BFD0;
+    font-size: 14px;
+}
+
+/* Projects Section Styling */
+#fh5co-work {
+    background-color: #211F2F;
+    color: #FFF;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#fh5co-work .fh5co-heading h2 {
+    color: #918CA9;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.work {
+    background-color: #2F2A3C;
+    color: #FFF;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.work .desc h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.work .desc span {
+    color: #C1BFD0;
+}
+
+/* Skills Section Styling */
+#skills-section {
+    background-color: #211F2F;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skills-heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #918CA9;
+    margin-bottom: 20px;
+}
+
+.skills-intro {
+    font-size: 16px;
+    color: #C1BFD0;
+    margin-bottom: 40px;
+}
+
+.skill-card .card {
+    background: linear-gradient(135deg, #1E1A29, #918CA9);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.skill-card .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.skill-list li {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+/* Footer Styling */
+#fh5co-footer {
+    background-color: #1E1A29;
+    color: #918CA9;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#fh5co-footer p {
+    color: #C1BFD0;
+    font-size: 14px;
+}
+
+/* General Button Styling */
+.btn {
+    border-radius: 30px;
+    padding: 8px 20px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #918CA9;
+    border: none;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #6E6782;
+}
 
 /*# sourceMappingURL=style.css.map */
