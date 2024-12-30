@@ -1527,6 +1527,66 @@ body {
 .btn-primary:hover {
     background-color: #6E6782;
 }
+/* Projects Section Styling */
+#fh5co-work {
+    background-color: #211F2F; /* Match the background color of the theme */
+    padding: 50px 0;
+}
+
+#fh5co-work .fh5co-heading {
+    text-align: center;
+    color: #918CA9;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#fh5co-work .work {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 270px;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+    border-radius: 12px; /* Add subtle rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+}
+
+#fh5co-work .work:hover {
+    transform: translateY(-8px); /* Lift effect on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+#fh5co-work .desc {
+    display: table-cell;
+    vertical-align: middle;
+    background: rgba(33, 31, 47, 0.8); /* Subtle dark overlay */
+    color: #FFFFFF;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+#fh5co-work .work:hover .desc {
+    opacity: 1;
+}
+
+#fh5co-work .desc h3 {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#fh5co-work .desc span {
+    font-size: 14px;
+    color: #C1BFD0;
+}
 
 
 /*# sourceMappingURL=style.css.map */
