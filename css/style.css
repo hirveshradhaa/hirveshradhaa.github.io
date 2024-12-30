@@ -1858,8 +1858,14 @@ body {
 .timeline-title {
     font-size: 20px;
     font-weight: bold;
-    color: #FFFFFF;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    white-space: nowrap; /* Prevents wrapping */
+    overflow: hidden;    /* Prevents text overflow */
+    text-overflow: ellipsis; /* Adds ellipsis (...) if the text overflows */
+}
+.timeline-panel {
+    max-width: 100%; /* Use the full width available */
+    padding: 10px; /* Adjust spacing as needed */
 }
 
 .company {
