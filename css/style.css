@@ -1855,5 +1855,23 @@ body {
 .btn-primary:hover {
     background-color: #6E6782;
 }
+.timeline-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.company {
+    font-size: 16px;
+    font-weight: bold;
+    color: #C1BFD0;
+    margin-bottom: 5px;
+}
+
+.time-period {
+    font-size: 14px;
+    color: #918CA9;
+}
 
 /*# sourceMappingURL=style.css.map */
