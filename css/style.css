@@ -16,7 +16,7 @@ body {
     color: #918CA9; /* Complementary light text */
     font-size: 16px;
     line-height: 1.7;
-}
+} 
 
 #page {
   position: relative;
@@ -1363,13 +1363,6 @@ margin-bottom: 5px;
 /* Updated CSS */
 
 /* General Body Styling */
-body {
-    font-family: "Space Mono", Arial, serif;
-    background-color: #211F2F; /* Dark subtle background */
-    color: #918CA9; /* Complementary light text */
-    font-size: 16px;
-    line-height: 1.7;
-}
 
 /* Header Styling */
 #fh5co-header {
