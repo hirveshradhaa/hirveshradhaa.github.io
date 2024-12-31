@@ -423,7 +423,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  color: #FFFFFF;
+  background: #FF9000;
 }
 
 .fh5co-heading {
@@ -1504,8 +1504,8 @@ body {
 
 /* Footer Styling */
 #fh5co-footer {
-  background: #1E1A29; /* Match footer with the theme */
-  color: #918CA9; /* Light text color */
+    background-color: #1E1A29;
+    color: #918CA9;
 }
 
 #fh5co-footer p {
