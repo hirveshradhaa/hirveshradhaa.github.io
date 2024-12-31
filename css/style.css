@@ -1887,9 +1887,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
     border-radius: 50%;
+    top: 40px;
+  left: 50%;
+  margin-left: -21px;
+   z-index: 100;
+  display: table;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
     color: #fff; /* Icon color */
     font-size: 24px; /* Adjust icon size */
+
+ 
 }
 
 .timeline-badge1 i {
