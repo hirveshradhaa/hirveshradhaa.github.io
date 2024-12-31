@@ -1,299 +1,110 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Color Theme Visuals</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f7f7f7;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shraddha Hirve - Portfolio</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: "Space Mono", Arial, serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #211F2F; /* Dark subtle background */
+            color: #918CA9; /* Complementary light text */
+        }
 
-    .container {
-      width: 90%;
-      max-width: 1000px;
-      margin: 2rem auto;
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 2rem;
-    }
+        header {
+            background: linear-gradient(135deg, #211F2F, #918CA9);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
 
-    .theme-card {
-      background: #ffffff;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      padding: 1.5rem;
-    }
+        header h1 {
+            font-family: "Kaushan Script", cursive;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
 
-    .theme-title {
-      margin: 0 0 1rem;
-      font-size: 1.25rem;
-      color: #333333;
-    }
+        header p {
+            font-size: 1.2rem;
+            margin: 0;
+        }
 
-    .color-swatches {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: #2F2A3C; /* Darker background for sections */
+            color: #FFFFFF;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
 
-    .color-block {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 100px;
-      height: 60px;
-      border-radius: 4px;
-      color: #fff;
-      font-size: 0.8rem;
-      font-weight: 600;
-      box-shadow: inset 0 0 2px rgba(0,0,0,0.2);
-    }
+        section h2 {
+            color: #918CA9;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
 
-    .color-label {
-      margin-top: 0.25rem;
-      font-size: 0.75rem;
-      font-weight: normal;
-      color: #333;
-    }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
 
-    /* Just a helper class for darker text on light blocks, if needed */
-    .dark-text {
-      color: #333 !important;
-    }
-  </style>
+        ul li {
+            background: linear-gradient(135deg, #1E1A29, #918CA9);
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+            color: #FFFFFF;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1E1A29;
+            color: #918CA9;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Shraddha Hirve</h1>
+        <p>Software Engineer | Web Developer | AI Enthusiast</p>
+    </header>
 
-  <div class="container">
-    
-    <!-- 1. Midnight Blue & Electric Accent -->
-    <div class="theme-card">
-      <h2 class="theme-title">1. Midnight Blue & Electric Accent</h2>
-      <div class="color-swatches">
-        <div>
-          <div class="color-block" style="background: #0F172A;">
-            #0F172A
-          </div>
-          <div class="color-label">Background</div>
-        </div>
-        <div>
-          <div class="color-block" style="background: #1D4ED8;">
-            #1D4ED8
-          </div>
-          <div class="color-label">Primary Accent</div>
-        </div>
-        <div>
-          <div class="color-block" style="background: #9333EA;">
-            #9333EA
-          </div>
-          <div class="color-label">Secondary Accent</div>
-        </div>
-        <div>
-          <div class="color-block dark-text" style="background: #F8FAFC; box-shadow: inset 0 0 2px rgba(0,0,0,0.1);">
-            #F8FAFC
-          </div>
-          <div class="color-label">Neutral Text / Foreground</div>
-        </div>
-      </div>
-    </div>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Shraddha, a Software Engineer with over 4 years of experience and a Master’s student in Computer Science. I specialize in crafting responsive websites and have expertise in front-end and back-end technologies.
+        </p>
+    </section>
 
-    <!-- 2. Minimalist Light Theme -->
-    <div class="theme-card">
-      <h2 class="theme-title">2. Minimalist Light Theme</h2>
-      <div class="color-swatches">
-        <div>
-          <div class="color-block dark-text" style="background: #FAFAFA; box-shadow: inset 0 0 2px rgba(0,0,0,0.1);">
-            #FAFAFA
-          </div>
-          <div class="color-label">Background</div>
-        </div>
-        <div>
-          <div class="color-block" style="background: #4B5563;">
-            #4B5563
-          </div>
-          <div class="color-label">Primary Accent</div>
-        </div>
-        <div>
-          <div class="color-block" style="background: #84CC16;">
-            #84CC16
-          </div>
-          <div class="color-label">Highlight</div>
-        </div>
-        <div>
-          <div class="color-block" style="background: #1F2937;">
-            #1F2937
-          </div>
-          <div class="color-label">Text</div>
-        </div>
-      </div>
-    </div>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Angular</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+            <li>Docker</li>
+        </ul>
+    </section>
 
-    <!-- 3. Dark Gray & Neon Green -->
-    <div class="theme-card">
-      <h2 class="theme-title">3. Dark Gray & Neon Green</h2>
-      <div class="color-swatches">
-        <div>
-          <div class="color-block" style="background: #1E1E1E;">
-            #1E1E1E
-          </div>
-          <div class="color-label">Background</div>
-        </div>
-        <div>
-          <div class="color-block dark-text" style="background: #00FF7F;">
-            #00FF7F
-          </div>
-          <div class="color-label">Neon Green Accent</div>
-        </div>
-        <div>
-          <div class="color-block dark-text" style="background: #32C5FF;">
-            #32C5FF
-          </div>
-          <div class="color-label">Secondary Accent</div>
-        </div>
-        <div>
-          <div class="color-block dark-text" style="background: #EEEEEE; box-shadow: inset 0 0 2px rgba(0,0,0,0.1);">
-            #EEEEEE
-          </div>
-          <div class="color-label">Text</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 4. Solarized-Inspired -->
-    <div class="theme-card">
-      <h2 class="theme-title">4. Solarized-Inspired</h2>
-      <div class="color-swatches">
-        <div>
-          <div class="color-block" style="background: #002B36;">
-            #002B36
-          </div>
-          <div class="color-label">Background</div>
-        </div>
-        <div>
-          <div class="color-block" style="background: #839496;">
-            #839496
-          </div>
-          <div class="color-label">Base Text</div>
-        </div>
-        <div>
-          <div class="color-block dark-text" style="background: #B58900;">
-            #B58900
-          </div>
-          <div class="color-label">Accent 1 (Golden)</div>
-        </div>
-        <div>
-          <div class="color-block" style="background: #CB4B16;">
-            #CB4B16
-          </div>
-          <div class="color-label">Accent 2 (Rust Orange)</div>
-        </div>
-        <div>
-          <div class="color-block" style="background: #268BD2;">
-            #268BD2
-          </div>
-          <div class="color-label">Accent 3 (Bright Cyan-Blue)</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 5. Futuristic Purple & Teal -->
-    <div class="theme-card">
-      <h2 class="theme-title">5. Futuristic Purple & Teal</h2>
-      <div class="color-swatches">
-        <div>
-          <div class="color-block" style="background: #2C0E37;">
-            #2C0E37
-          </div>
-          <div class="color-label">Background</div>
-        </div>
-        <div>
-          <div class="color-block dark-text" style="background: #38B2AC;">
-            #38B2AC
-          </div>
-          <div class="color-label">Primary Accent (Teal)</div>
-        </div>
-        <div>
-          <div class="color-block dark-text" style="background: #A855F7;">
-            #A855F7
-          </div>
-          <div class="color-label">Highlight (Vibrant Purple)</div>
-        </div>
-        <div>
-          <div class="color-block dark-text" style="background: #F3F4F6; box-shadow: inset 0 0 2px rgba(0,0,0,0.1);">
-            #F3F4F6
-          </div>
-          <div class="color-label">Text</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 6. Monochrome With a Single Pop Color -->
-    <div class="theme-card">
-      <h2 class="theme-title">6. Monochrome + Single Pop Color</h2>
-      <div class="color-swatches">
-        <div>
-          <div class="color-block dark-text" style="background: #F5F5F5; box-shadow: inset 0 0 2px rgba(0,0,0,0.1);">
-            #F5F5F5
-          </div>
-          <div class="color-label">Background</div>
-        </div>
-        <div>
-          <div class="color-block" style="background: #2C2C2C;">
-            #2C2C2C
-          </div>
-          <div class="color-label">Text</div>
-        </div>
-        <div>
-          <div class="color-block dark-text" style="background: #CFCFCF;">
-            #CFCFCF
-          </div>
-          <div class="color-label">Borders/Dividers</div>
-        </div>
-        <div>
-          <div class="color-block" style="background: #EF4444;">
-            #EF4444
-          </div>
-          <div class="color-label">Accent (Bright Red)</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 7. Pastel Playful -->
-    <div class="theme-card">
-      <h2 class="theme-title">7. Pastel Playful</h2>
-      <div class="color-swatches">
-        <div>
-          <div class="color-block dark-text" style="background: #F7FAFC; box-shadow: inset 0 0 2px rgba(0,0,0,0.1);">
-            #F7FAFC
-          </div>
-          <div class="color-label">Background</div>
-        </div>
-        <div>
-          <div class="color-block dark-text" style="background: #A7F3D0;">
-            #A7F3D0
-          </div>
-          <div class="color-label">Primary Pastel (Mint)</div>
-        </div>
-        <div>
-          <div class="color-block dark-text" style="background: #C4B5FD;">
-            #C4B5FD
-          </div>
-          <div class="color-label">Secondary Pastel (Lavender)</div>
-        </div>
-        <div>
-          <div class="color-block" style="background: #2D3748;">
-            #2D3748
-          </div>
-          <div class="color-label">Text</div>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
+    <footer>
+        <p>&copy; 2024 Shraddha Hirve | All Rights Reserved</p>
+    </footer>
 </body>
 </html>
