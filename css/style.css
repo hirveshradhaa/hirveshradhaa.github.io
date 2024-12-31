@@ -1879,7 +1879,7 @@ body {
     font-size: 14px;
     color: #918CA9;
 }
-.timeline-badge {
+.timeline-badge1 {
     background-color: #918CA9; /* Theme color for badge */
     border: 3px solid #2F2A3C; /* Matching border */
     height: 50px;
@@ -1892,7 +1892,7 @@ body {
     font-size: 24px; /* Adjust icon size */
 }
 
-.timeline-badge i {
+.timeline-badge1 i {
     margin: 0; /* Center the icon properly */
 }
 /*# sourceMappingURL=style.css.map */
