@@ -1879,5 +1879,20 @@ body {
     font-size: 14px;
     color: #918CA9;
 }
+.timeline-badge {
+    background-color: #918CA9; /* Theme color for badge */
+    border: 3px solid #2F2A3C; /* Matching border */
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff; /* Icon color */
+    font-size: 24px; /* Adjust icon size */
+}
 
+.timeline-badge i {
+    margin: 0; /* Center the icon properly */
+}
 /*# sourceMappingURL=style.css.map */
