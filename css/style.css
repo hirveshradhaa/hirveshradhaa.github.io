@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -424,7 +423,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: #FF9000;
+  color: #FFFFFF;
 }
 
 .fh5co-heading {
@@ -1505,8 +1504,8 @@ body {
 
 /* Footer Styling */
 #fh5co-footer {
-    background-color: #1E1A29;
-    color: #918CA9;
+  background: #1E1A29; /* Match footer with the theme */
+  color: #918CA9; /* Light text color */
 }
 
 #fh5co-footer p {
@@ -1909,204 +1908,3 @@ body {
     margin: 0; /* Center the icon properly */
 }
 /*# sourceMappingURL=style.css.map */
-/* 31st changes body { */
-    font-family: "Space Mono", Arial, serif;
-    background-color: #eaf7ff; /* Light blue */
-    color: #333; /* Text color */
-    font-size: 16px;
-    line-height: 1.7;
-}
-
-/* Header Styling */
-#fh5co-header {
-    background: linear-gradient(135deg, #4ba3c3, #7bd5c5); /* Vibrant blue-green gradient */
-    color: #ffffff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-#fh5co-header .overlay {
-    background: rgba(0, 0, 0, 0.3); /* Subtle overlay */
-}
-
-#fh5co-header h3 {
-    font-size: 36px;
-    font-weight: bold;
-    color: #ffffff;
-    margin-bottom: 20px;
-}
-
-#fh5co-header .fh5co-social-icons li a {
-    color: #ffffff;
-}
-
-#fh5co-header .fh5co-social-icons li a:hover {
-    color: #f7ffb0; /* Soft yellow hover */
-}
-
-.download-resume-btn {
-    background-color: #7bd5c5;
-    color: #ffffff;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.download-resume-btn:hover {
-    background-color: #4ba3c3;
-}
-
-/* About Section Styling */
-#fh5co-about {
-    background-color: #f7fcff; /* Very light blue */
-    color: #333;
-    padding: 50px 0;
-    text-align: center;
-}
-
-#fh5co-about h1 {
-    font-size: 36px;
-    font-weight: bold;
-    color: #4ba3c3;
-    margin-bottom: 20px;
-}
-
-.info li .first-block {
-    color: #4ba3c3;
-    font-weight: bold;
-}
-
-.info li .second-block {
-    color: #333;
-}
-
-/* Timeline Styling */
-.timeline {
-    background-color: #ffffff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
-}
-
-.timeline > li > .timeline-panel {
-    background-color: #f7fcff;
-    color: #333;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.timeline > li > .timeline-badge {
-    background-color: #4ba3c3;
-    color: #ffffff;
-}
-
-.timeline-title {
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-}
-
-.company {
-    font-size: 16px;
-    font-weight: bold;
-    color: #7bd5c5;
-}
-
-/* Skills Section Styling */
-#skills-section {
-    background: linear-gradient(135deg, #f7ffb0, #c3f1ff);
-    padding: 50px 0;
-    color: #333;
-    text-align: center;
-}
-
-.skills-heading {
-    font-size: 36px;
-    font-weight: bold;
-    color: #4ba3c3;
-}
-
-.skills-intro {
-    font-size: 16px;
-    color: #555;
-}
-
-.skill-card .card {
-    background: linear-gradient(135deg, #ffffff, #f0f9ff);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
-    padding: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.skill-card .card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-}
-
-.skill-card .card-title {
-    font-size: 20px;
-    font-weight: bold;
-    color: #4ba3c3;
-}
-
-/* Footer Styling */
-#fh5co-footer {
-    background: #4ba3c3;
-    color: #ffffff;
-    padding: 30px 0;
-    text-align: center;
-}
-
-#fh5co-footer p {
-    color: #eaf7ff;
-    font-size: 14px;
-}
-
-/* Buttons */
-.btn-primary {
-    background-color: #4ba3c3;
-    border: none;
-    color: #ffffff;
-}
-
-.btn-primary:hover {
-    background-color: #7bd5c5;
-}
-
-/* Project Section Styling */
-#fh5co-work {
-    background-color: #ffffff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-#fh5co-work .fh5co-heading h2 {
-    color: #4ba3c3;
-    font-size: 36px;
-}
-
-.work {
-    background-color: #f7fcff;
-    color: #333;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.work:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-}
-
-.work .desc h3 {
-    font-size: 20px;
-    font-weight: bold;
-    color: #4ba3c3;
-}
-
-.work .desc span {
-    color: #7bd5c5;
-}
