@@ -1907,4 +1907,54 @@ body {
 .timeline-badge1 i {
     margin: 0; /* Center the icon properly */
 }
+/*changes on 1st Jan 2025*/
+/* Contact Section Styling */
+#fh5co-consult {
+    padding: 50px 0;
+    background-color: #2F2A3C;
+    color: #FFF;
+}
+
+#fh5co-consult h2 {
+    color: #918CA9;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#fh5co-consult p {
+    color: #C1BFD0;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border-radius: 5px;
+    background-color: #211F2F;
+    color: #FFF;
+    border: 1px solid #918CA9;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+
+.form-control:focus {
+    border-color: #FF9000;
+    background-color: #1E1A29;
+    outline: none;
+}
+
+.btn-primary {
+    background-color: #FF9000;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #E67E22;
+    color: #FFF;
+}
+
 /*# sourceMappingURL=style.css.map */
