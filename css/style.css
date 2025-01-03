@@ -2,7 +2,7 @@
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-  font-weight: normal; 
+  font-weight: normal;
   font-style: normal;
 }
 /* =======================================================
@@ -1992,14 +1992,6 @@ body {
   text-overflow: ellipsis; /* Adds ellipsis for overflowing text */
 }
 
-@media (max-width: 768px) {
-  .info li span:first-child {
-    width: 100px; /* Reduce the label width on smaller screens */
-  }
-  .info li {
-    font-size: 14px; /* Reduce font size for better fit */
-  }
-}
 
 
 /*# sourceMappingURL=style.css.map */
