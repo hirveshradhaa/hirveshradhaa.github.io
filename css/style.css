@@ -335,23 +335,23 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff !important;
 }
 
-.info {
+/* .info {
   margin: 0;
   padding: 0;
   width: 90%;
   float: left;
-}
+} */
 @media screen and (max-width: 768px) {
   .info {
     margin-bottom: 3em;
   }
 }
-.info li {
+/* .info li {
   width: 100%;
   float: left;
   list-style: none;
   padding: 10px 0;
-}
+} */
 .info li:first-child {
   padding-top: 0;
 }
@@ -1955,6 +1955,34 @@ body {
 .btn-primary:hover {
     background-color: #E67E22;
     color: #FFF;
+}
+/*2nd Jan changes*/
+
+
+.info {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack the list items vertically */
+}
+
+.info li {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: flex-start; /* Align items to the start */
+  align-items: center; /* Vertically align spans within the li */
+  list-style: none; /* Remove bullet points */
+  padding: 10px 0; /* Add spacing between items */
+}
+
+.info li span:first-child {
+  font-weight: bold; /* Make the label bold */
+  margin-right: 10px; /* Add spacing between label and value */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.info li span:last-child {
+  flex: 1; /* Ensure the value occupies remaining space */
 }
 
 /*# sourceMappingURL=style.css.map */
