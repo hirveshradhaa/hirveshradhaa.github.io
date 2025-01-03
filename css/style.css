@@ -1978,7 +1978,7 @@ body {
 .info li span:first-child {
   font-weight: bold;
   text-align: right; /* Aligns label text to the right */
-  width: 150px; /* Fixed width for label */
+  /* width: 150px; Fixed width for label */
   margin-right: 10px; /* Space between label and value */
   color: white; /* Ensures text is visible on darker backgrounds */
 }
