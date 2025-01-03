@@ -1969,21 +1969,36 @@ body {
 
 .info li {
   display: flex;
-  align-items: center;
+  align-items: center; /* Ensures vertical alignment */
   padding: 10px 0; /* Space between rows */
-  list-style: none; /* Remove bullet points */
+  list-style: none; /* Removes bullet points */
+  white-space: nowrap; /* Prevents wrapping of text */
 }
 
 .info li span:first-child {
   font-weight: bold;
-  text-align: right; /* Align label text to the right */
+  text-align: right; /* Aligns label text to the right */
   width: 150px; /* Fixed width for label */
   margin-right: 10px; /* Space between label and value */
+  color: white; /* Ensures text is visible on darker backgrounds */
 }
 
 .info li span:last-child {
   flex: 1; /* Let value span remaining space */
   text-align: left; /* Align value to the left */
+  color: #eaeaea; /* Lightens the text color for distinction */
+  white-space: nowrap; /* Prevents wrapping of long text */
+  overflow: hidden; /* Ensures long text doesn't overflow */
+  text-overflow: ellipsis; /* Adds ellipsis for overflowing text */
+}
+
+@media (max-width: 768px) {
+  .info li span:first-child {
+    width: 100px; /* Reduce the label width on smaller screens */
+  }
+  .info li {
+    font-size: 14px; /* Reduce font size for better fit */
+  }
 }
 
 
