@@ -457,7 +457,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .timeline:before {
-  top: 20px;
+  /* top: 20px; */
   bottom: 0;
   position: absolute;
   content: " ";
