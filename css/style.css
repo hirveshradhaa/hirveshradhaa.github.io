@@ -1963,26 +1963,28 @@ body {
   margin: 0;
   padding: 0;
   width: 90%;
-  display: flex; /* Use flexbox for alignment */
-  flex-direction: column; /* Stack the list items vertically */
+  display: flex;
+  flex-direction: column;
 }
 
 .info li {
-  display: flex; /* Use flexbox for alignment */
-  justify-content: flex-start; /* Align items to the start */
-  align-items: center; /* Vertically align spans within the li */
+  display: flex;
+  align-items: center;
+  padding: 10px 0; /* Space between rows */
   list-style: none; /* Remove bullet points */
-  padding: 10px 0; /* Add spacing between items */
 }
 
 .info li span:first-child {
-  font-weight: bold; /* Make the label bold */
-  margin-right: 10px; /* Add spacing between label and value */
-  white-space: nowrap; /* Prevent text from wrapping */
+  font-weight: bold;
+  text-align: right; /* Align label text to the right */
+  width: 150px; /* Fixed width for label */
+  margin-right: 10px; /* Space between label and value */
 }
 
 .info li span:last-child {
-  flex: 1; /* Ensure the value occupies remaining space */
+  flex: 1; /* Let value span remaining space */
+  text-align: left; /* Align value to the left */
 }
+
 
 /*# sourceMappingURL=style.css.map */
